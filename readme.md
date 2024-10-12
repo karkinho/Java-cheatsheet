@@ -1,3 +1,9 @@
+# COmpilando o codigo
+
+## Javac
+
+## Java
+
 # Utilização de database em mysql
 
 ## Instalar o connector
@@ -140,3 +146,7 @@ try {
     System.out.println( "Erro efetuando consulta : " + sqle.getMessage() );
 }
 ```
+
+## Padrão DAO (data access object)
+
+Esse padrão visa separar a parte de conecção e CRUD do codigo do resto, criando uma classe da tabela a ser trabalhada de mesmo nome aonde contem todas as variaveis contidas na tabela, e uma classe de operação sobre o banco que terá o nome do nome da tabela mais DAO ao lado, nela será realizada todas as funções de CRUD tanto quanto a conecção e desconecção do bando de dados.
