@@ -1,8 +1,24 @@
-# COmpilando o codigo
+# Compilando o codigo
 
 ## Javac
 
+javac -d bin -cp bin -sourcepath src src/\*.java
+
 ## Java
+
+java -cp bin App
+
+## -d
+
+Para definir um folder para colocar os .class.
+
+## -cp
+
+Define o local no qual o compilador vai olhar para encontrar as classes geradas.
+
+## -sourcepath
+
+Define um ponto aonde o compilador vai procurar os arquivos java
 
 # Utilização de database em mysql
 
